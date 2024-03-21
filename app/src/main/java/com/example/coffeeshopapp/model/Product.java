@@ -19,6 +19,13 @@ public class Product{
         this.size = size;
     }
 
+    public Product() {
+
+    }
+
+    public Product(String name, String image, double price) {
+    }
+
     public int getId() {
         return id;
     }
